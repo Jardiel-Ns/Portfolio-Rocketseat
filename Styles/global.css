@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /*cores principais*/
+  --color-red: #E3646E;
+  --color-purple: #BB72E9;
+  --color-blue: #3996DB;
+  --color-green: #82BC4F;
+  --color-yellow: #EABD5F;
+  /*cores base*/
+  --color-gray-100: #0D0E11;
+  --color-gray-200: #16181D;
+  --color-gray-300: #292C34;
+  --color-gray-400: #878EA1;
+  --color-gray-500: #C0C4CE;
+  --color-gray-600: #E2E4E9;
+  /*fontes*/
+  --font-family-asap: "Asap Condensed", sans-serif;
+  --font-family-inconsolata: "Inconsolata", sans-serif;
+  --font-family-maven: "Maven Pro", sans-serif;
+
+  --title-lg: 600 3.5rem/1.2 var(--font-family-asap);
+  --title-md: 600 1.5rem/1.2 var(--font-family-asap);
+  --title-sm: 600 1rem/1.2 var(--font-family-asap);
+
+  --text-subtitle: 400 1.25rem/1.2 var(--font-family-inconsolata);
+
+  --text-md: 400 1rem/1.4 var(--font-family-maven);
+  --text-sm: 400 0.875rem/1.4 var(--font-family-maven)
+}
+
+body {
+  background-color: var(--color-gray-200);
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: scroll; /* garante que o scroll funcione */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+main {
+  display: flex;
+  margin-top: 120px;
+  flex-direction: column;
+  align-items: center;
+}
