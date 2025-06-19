@@ -1,0 +1,58 @@
+section#my-services {
+  background-color: var(--color-gray-100);
+  height: 480px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw; /* ocupa toda a largura da janela */
+  margin-left: calc(-50vw + 50%); /* "puxa" pra esquerda e alinha com a borda da tela */
+  margin-top: 132px;
+}
+
+section#my-services-description {
+  margin-top: 88px;
+  text-align: center;
+
+  h2 {
+    font: var(--text-subtitle);
+    color: var(--color-red);  
+  }
+
+  h1 {
+    font: var(--title-md);
+    color: var(--color-gray-600);
+  }
+}
+
+section#my-services-list {
+  margin-top: 56px;
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+
+  .services-itens {
+    width: 280px;
+    height: 155px;
+    padding: 20px;
+    align-items: left;
+    border: solid 1px var(--color-gray-300);
+    border-radius: 12px;
+
+    div {
+      margin-bottom: 20px;
+      width: 48px;
+      height: 48px;
+    }
+
+    h1 {
+      font: var(--title-sm);
+      color: var(--color-gray-600)
+    }
+
+    h2 {
+      font: var(--text-sm);
+      color: var(--color-gray-500)
+    }
+  }
+}
